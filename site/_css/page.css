@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	text-align: center;
+}
+
+.header {
+	left: 0;
+	right: 0;
+
+	margin: 0 0 20 0;
+	padding: 5 0;
+
+	font-size: 18;
+	color: #bdc3c7;
+	background: #2c3e50;
+}
+
+.header a:hover {
+	color: #bdc3c7;
+	text-shadow: 0 0 20px #bdc3c7;
+}
+
+.content {
+	width: 800;
+	margin: 0 auto;
+	text-align: left;
+}

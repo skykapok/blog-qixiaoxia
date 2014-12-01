@@ -1,0 +1,24 @@
+html {
+	font-family: "Noto Sans", Helvetica, Arial, "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", SimSun, "宋体", sans-serif;
+	-webkit-font-smoothing: antialiased;
+
+	color: #34495e;
+	background: #ecf0f1;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a { text-decoration: none }
+a:link { color: inherit; }
+a:visited { color: inherit; }
+a:hover { color: #d35400; }
+
+.copyright {
+	color: #a0a0a0;
+	font-size: 10;
+	text-align: center;
+}
