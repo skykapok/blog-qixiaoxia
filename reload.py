@@ -18,6 +18,12 @@ def get_metainfo(md):
 	if m:
 		return m.group(1)
 
+def write_file(path, text):
+	d = os.path.dirname(path)
+	if not os.path.exists(d):
+		os.makedirs(d)
+	open(path, "w").write(text)
+
 class BlogPost(object):
 	def __init__(self, path):
 		self.target_path = "blog/%s.html" % os.path.basename(path).split(".")[0]
@@ -31,7 +37,7 @@ class BlogPost(object):
 	def write_html(self, path):
 		template = open("template/blog.html", "r").read()
 		html = template.replace("-TITLE-", self.title).replace("-CONTENT-", self.html)
-		open(path + self.target_path, "w").write(html)
+		write_file(path + self.target_path, html)
 
 	def get_index_html(self):
 		template = "<span class=\"blog-date\">%s - </span><a href=\"%s\">%s</a>"
@@ -67,7 +73,7 @@ def main():
 
 	template = open("template/index.html", "r").read()
 	html = template.replace("-BLOG-", "".join(tags))
-	open("site/index.html", "w").write(html)
+	write_file("site/index.html", html)
 
 if __name__ == "__main__":
 	main()
