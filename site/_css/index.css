@@ -37,7 +37,7 @@ body {
 .gallery img {
 	width: 180;
 	height: 180;
-	border-radius: 45;
+	border-radius: 45px;
 }
 
 .gallery div {
@@ -67,7 +67,7 @@ body {
 	height: 100;
 	width: 100;
 	vertical-align: middle;
-	border-radius: 50;
+	border-radius: 50px;
 	border-color: #bdc3c7;
 	border-style: solid;
 	border-width: 2;
