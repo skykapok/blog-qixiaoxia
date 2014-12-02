@@ -1,5 +1,5 @@
 html {
-	font-family: "Noto Sans", Helvetica, Arial, "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", SimSun, "宋体", sans-serif;
+	font-family: "Noto Sans", Helvetica, Arial, "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", SimSun, "宋体", sans-serif, "Helvetica Neue", "Segoe UI", freesans;
 	-webkit-font-smoothing: antialiased;
 
 	color: #34495e;
@@ -18,7 +18,8 @@ a:visited { color: inherit; }
 a:hover { color: #d35400; }
 
 .copyright {
+	padding: 2px;
 	color: #a0a0a0;
-	font-size: 10;
+	font-size: 10px;
 	text-align: center;
 }

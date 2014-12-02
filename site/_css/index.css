@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	text-align: center;
-	font-size: 20;
+	font-size: 20px;
 	line-height: 1.5;
 }
 
@@ -10,9 +10,9 @@ body {
 	right: 0;
 
 	margin: 0 auto;
-	padding: 60 0 10 0;
+	padding: 60px 0 10px 0;
 
-	font-size: 56;
+	font-size: 56px;
 	color: #bdc3c7;
 	background: #2c3e50;
 }
@@ -23,20 +23,20 @@ body {
 }
 
 .content {
-	width: 800;
+	width: 800px;
 	margin: 0 auto;
 }
 
 .gallery {
 	display: inline-block;
-	margin: 20 40;
+	margin: 20px 40px;
 	padding: 0;
 	text-align: center;
 }
 
 .gallery img {
-	width: 180;
-	height: 180;
+	width: 180px;
+	height: 180px;
 	border-radius: 45px;
 }
 
@@ -45,38 +45,38 @@ body {
 }
 
 .gallery-title {
-	font-size: 28;
+	font-size: 28px;
 }
 
 .blog {
 	margin: 0 auto;
-	width: 600;
+	width: 600px;
 	text-align: left;
 }
 
 .blog-date {
 	color: #a0a0a0;
-	font-size: 14;
+	font-size: 14px;
 }
 
 .about {
-	padding: 20;
+	padding: 20px;
 }
 
 .about img {
-	height: 100;
-	width: 100;
+	height: 100px;
+	width: 100px;
 	vertical-align: middle;
 	border-radius: 50px;
 	border-color: #bdc3c7;
 	border-style: solid;
-	border-width: 2;
+	border-width: 2px;
 }
 
 .about span {
 	display: inline-block;
-	margin: 0 0 0 10;
+	margin: 0 0 0 10px;
 	vertical-align: middle;
 	text-align: left;
-	font-size: 16;
+	font-size: 16px;
 }
