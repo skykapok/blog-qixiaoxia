@@ -6,6 +6,7 @@ import urllib
 import json
 import re
 
+# ============ helpers ============
 def md_to_html(md):
 	params = json.dumps({'text': md, 'mode': 'markdown'}).encode('utf-8')
 	handle = urllib.urlopen('https://api.github.com/markdown', params)
@@ -19,7 +20,7 @@ def get_metainfo(md):
 
 def get_first_commit_date(path):
 	cmd = 'git log --reverse --pretty=format:"%%cd" --date=short %s'
-	date = os.popen(cmd % path).readline()
+	date = os.popen(cmd % path).readline().strip()
 	return time.strptime(date, '%Y-%m-%d')
 
 def write_file(path, text):
@@ -28,6 +29,7 @@ def write_file(path, text):
 		os.makedirs(d)
 	open(path, 'w').write(text)
 
+# ============ class ============
 class BlogPost(object):
 	def __init__(self, path):
 		md = open(path, 'r').read()
@@ -40,7 +42,7 @@ class BlogPost(object):
 
 	def write_html(self, base_path):
 		template = open('template/blog.html', 'r').read()
-		html = template.replace("-TITLE-", self.title).replace("-CONTENT-", self.content)
+		html = template.replace('-TITLE-', self.title).replace('-CONTENT-', self.content)
 		write_file(os.path.join(base_path, self._path), html)
 
 	def get_index_html(self):
@@ -48,6 +50,7 @@ class BlogPost(object):
 		date = time.strftime('%d %b', self.date)
 		return template % (date, self._path, self.title)
 
+# ============ entry ============
 def main():
 	all_post = []
 
