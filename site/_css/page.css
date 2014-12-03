@@ -22,7 +22,7 @@ body {
 .content {
 	width: 800px;
 	margin: 0 auto;
-	border-width: 1;
+	border-width: 1px;
 	border-style: none double double double;
 	border-color: #bdc3c7;
 	text-align: left;
@@ -31,6 +31,6 @@ body {
 .ds-thread {
 	padding: 30px;
 	border-top-style: double;
-	border-top-width: 1;
+	border-top-width: 1px;
 	border-color: #bdc3c7;
 }
