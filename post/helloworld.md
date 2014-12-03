@@ -2,7 +2,7 @@
 
 又又又重新开了博客。
 
-事情是这样的，两年前用wordpress搭建了一个博客，虽然一直没有写，但域名一直在续费，服务器一直在买。又由于wordpress是php+mysql的，我对这二者一窍不通，每次迁移都折腾的要死。后来觉得同事[lvzixun](https://github.com/lvzixun)的方法不错，文章用[markdown](https://help.github.com/articles/markdown-basics/)写，放在github上，然后写个脚本自动拉到服务器上转成html页面。于是我也这么撸了一个。
+事情是这样的，两年前用wordpress搭建了一个[博客](http://old.qixiaoxia.com)，虽然一直没有写，但域名一直在续费，服务器一直在买。又由于wordpress是php+mysql的，我对这二者一窍不通，每次迁移都折腾的要死。后来觉得同事[lvzixun](https://github.com/lvzixun)的方法不错，文章用[markdown](https://help.github.com/articles/markdown-basics/)写，放在github上，然后写个脚本自动拉到服务器上转成html页面。于是我也这么撸了一个。
 
 wordpress的文章可以导出成xml，然后用python解析一下导过来应该很容易。还想把之前所有博客都导过来，网上找到有人写了一个[blogstowordpress](http://www.crifan.com/crifan_released_all/website/python/blogstowordpress/)脚本，试用了一下发现有些博客不成功，比如QQ空间，以后再折腾吧。
 
