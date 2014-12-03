@@ -1,4 +1,3 @@
-blog-qixiaoxia
-==============
+#[qixiaoxia.com](http://qixiaoxia.com)
 
-my personal blog
+This is my personal blog. (in Chinese)
