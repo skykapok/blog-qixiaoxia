@@ -42,7 +42,10 @@ class BlogPost(object):
 
 	def write_html(self, base_path):
 		template = open('template/blog.html', 'r').read()
-		html = template.replace('-TITLE-', self.title).replace('-CONTENT-', self.content)
+		html = template.replace('-TITLE-', self.title)
+		html = html.replace('-CONTENT-', self.content)
+		html = html.replace('-ID-', self._path)
+		html = html.replace('-URL-', "http://qixiaoxia/" + self._path)
 		write_file(os.path.join(base_path, self._path), html)
 
 	def get_index_html(self):

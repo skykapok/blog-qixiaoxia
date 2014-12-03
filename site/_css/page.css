@@ -27,3 +27,10 @@ body {
 	border-color: #bdc3c7;
 	text-align: left;
 }
+
+.ds-thread {
+	padding: 30px;
+	border-top-style: double;
+	border-top-width: 1;
+	border-color: #bdc3c7;
+}
