@@ -9,28 +9,27 @@ body {
 
 	padding: 5px 0;
 
-	font-size: 16px;
+	font-size: 1em;
 	color: #bdc3c7;
 	background: #2c3e50;
 }
 
 .header a:hover {
-	color: #bdc3c7;
-	text-shadow: 0 0 20px #bdc3c7;
+	color: #ffffff;
 }
 
 .content {
-	width: 800px;
+	max-width: 800px;
 	margin: 0 auto;
-	border-width: 3px;
+	border-width: 0.25em;
 	border-style: none double double double;
 	border-color: #bdc3c7;
 	text-align: left;
 }
 
 .ds-thread {
-	padding: 30px;
+	padding: 2em;
 	border-top-style: double;
-	border-top-width: 3px;
+	border-top-width: 0.25em;
 	border-color: #bdc3c7;
 }
