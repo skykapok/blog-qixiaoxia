@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import os
+import shutil
 import time
 import urllib
 import json
@@ -80,6 +81,11 @@ class BlogPost(object):
 
 # ============ entry ============
 def main():
+	if not os.path.exists('site/subject/r'):
+		os.mkdir('site/subject/r')
+	for fn in os.listdir('subject/r'):
+		shutil.copy('subject/r/' + fn, 'site/subject/r/' + fn)
+
 	for fn in os.listdir('subject'):
 		p = os.path.join('subject', fn)
 		if os.path.isdir(p):
