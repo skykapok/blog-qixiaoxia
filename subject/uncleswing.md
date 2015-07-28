@@ -4,11 +4,9 @@
 
 This is a difficult game! Keep balance to walk longer.
 
-操作方式:
-* 点击屏幕开始，左右滑动控制平衡，当心香蕉皮！
+点击屏幕开始，左右滑动控制平衡，当心香蕉皮！
 
-Controls:
-* Tap screen to start, slide left and right to keep balance, look out the bananas.
+Tap screen to start. Slide left/right to keep balance. Look out the bananas.
 
 ![](r/tiltt1.png) ![](r/tiltt2.png)
 

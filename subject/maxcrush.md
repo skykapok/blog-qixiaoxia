@@ -5,7 +5,7 @@ Max Crush的原型是十多年前流行的一个PC游戏**"Block130"**，是经�
 如果你发现了bug或者有什么建议，请在下方评论区留言。
 If you find a bug or have any advices, please write down below.
 
-![](r/maxcrush1.png) ![](r/maxcrush2.png) ![](r/maxcrush3.png) ![](r/maxcrush4.png)
+![](r/maxcrush1.png) ![](r/maxcrush2.png) ![](r/maxcrush3.png)
 
 -----
 
@@ -37,8 +37,7 @@ How to play:
 
 -----
 
-Open Source Lib Used In Max Crush:
+Open Source Libs Used In Max Crush:
 
 * Ejoy2d: https://github.com/ejoy/ejoy2d
 * Liekkas: https://github.com/lvzixun/Liekkas
-* Tween.lua: https://github.com/kikito/tween.lua
