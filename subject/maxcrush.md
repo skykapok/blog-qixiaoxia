@@ -11,7 +11,7 @@ If you find a bug or have any advices, please write down below.
 
 ## Download
 
-Coming Aug 2015
+[![](r/AppStoreBadge.svg)](https://itunes.apple.com/us/app/max-crush/id1018641834)
 
 ## Notice
 
