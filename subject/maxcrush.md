@@ -11,6 +11,8 @@ If you find a bug or have any advices, please write down below.
 
 ## Download
 
+如果你是在微信中打开的这个网页，需要点击右上角的按钮选择"在Safari中打开"，才可以使用下载链接。
+
 [![](r/AppStoreBadge.svg)](https://itunes.apple.com/us/app/max-crush/id1018641834)
 
 ## Notice
