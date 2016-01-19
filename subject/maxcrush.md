@@ -1,6 +1,6 @@
 # 爆裂方块(Max Crush)
 
-Max Crush的原型是十多年前流行的一个PC游戏**"Block130"**，是经典打砖块游戏的现代版，是IOS平台最好玩的打砖块游戏（如果不是，请告诉我）。
+Max Crush的原型是十多年前流行的一个PC游戏**"Block130"**，是经典打砖块游戏的现代版，是移动平台最好玩的打砖块游戏（如果不是，请告诉我）。
 
 如果你发现了bug或者有什么建议，请在下方评论区留言。
 If you find a bug or have any advices, please write down below.
@@ -21,9 +21,9 @@ If you find a bug or have any advices, please write down below.
 
 ![](r/maxcrush_ios_qr.png)
 
-### Android
+### Android (Beta Test)
 
-Coming soon
+<a href='https://play.google.com/apps/testing/com.poags.mc' target="_blank"><img src='r/GooglePlayBadge.png' height='45'/></a>
 
 ## Notice
 
