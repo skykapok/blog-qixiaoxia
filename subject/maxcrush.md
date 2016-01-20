@@ -11,28 +11,18 @@ If you find a bug or have any advices, please write down below.
 
 ## Download
 
-### IOS
+<a href='https://itunes.apple.com/us/app/max-crush/id1018641834' target="_blank"><img src='r/AppStoreBadge.svg' height='45'/></a> <a href='https://play.google.com/store/apps/details?id=com.poags.mc' target="_blank"><img src='r/GooglePlayBadge.png' height='45'/></a>
 
-如果你是在微信中打开的这个网页，需要点击右上角的按钮选择"在Safari中打开"，才可以使用下载链接。
-
-<a href='https://itunes.apple.com/us/app/max-crush/id1018641834' target="_blank"><img src='r/AppStoreBadge.svg' height='45'/></a>
-
-或者使用手机扫码下载
-
-![](r/maxcrush_ios_qr.png)
-
-### Android (Beta Test)
-
-<a href='https://play.google.com/apps/testing/com.poags.mc' target="_blank"><img src='r/GooglePlayBadge.png' height='45'/></a>
+注意：如果你是在IOS版微信中打开的这个网页，需要点击右上角的按钮选择"在Safari中打开"，才可以使用下载链接。
 
 ## Notice
 
 * 游戏使用物理模拟，小球的运动轨迹是曲线！
 * Gravity applies!
 * 可以发射多个小球！
-* Multiple balls may be launched at the same time.
+* Multiple balls may be shot simultaneously.
 * 点击屏幕上方发射小球，拖动挡板来避免小球掉落
-* Tap the blank field area to launch the ball. Drag the paddle to prevent the balls from dropping
+* Tap the blank area to shoot the ball. Drag the paddle to prevent the balls from dropping
 * 反弹小球时，左右滑动挡板会影响反弹角度，上下滑动可以让小球加减速
 * Horizontal drag decides the bouncing angles; vertical drag decides the bouncing speed
 
