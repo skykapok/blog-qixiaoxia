@@ -14,4 +14,4 @@ Tap screen to start. Slide left/right to keep balance. Look out the bananas.
 
 ## Download:
 
-[![](r/AppStoreBadge.svg)](https://itunes.apple.com/us/app/tilt-tilt/id905860357) [![](r/GooglePlayBadge.png)](https://play.google.com/store/apps/details?id=com.poags.tiltt)
+<a href='https://itunes.apple.com/us/app/tilt-tilt/id905860357' target="_blank"><img src='r/AppStoreBadge.svg' height='45'/></a> <a href='https://play.google.com/store/apps/details?id=com.poags.tiltt' target="_blank"><img src='r/GooglePlayBadge.png' height='45'/></a>

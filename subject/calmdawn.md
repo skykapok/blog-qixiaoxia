@@ -19,7 +19,7 @@ Control:
 
 ## Download
 
-[![](r/GooglePlayBadge.png)](https://play.google.com/store/apps/details?id=com.poags.dawn)
+<a href='https://play.google.com/store/apps/details?id=com.poags.dawn' target="_blank"><img src='r/GooglePlayBadge.png' height='45'/></a>
 
 ## Source
 
