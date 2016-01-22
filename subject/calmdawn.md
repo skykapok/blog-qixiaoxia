@@ -19,7 +19,7 @@ Control:
 
 ## Download
 
-<a href='https://play.google.com/store/apps/details?id=com.poags.dawn' target="_blank"><img src='r/GooglePlayBadge.png' height='45'/></a>
+<a href='https://play.google.com/store/apps/details?id=com.poags.dawn' target="_blank"><img src='r/badge_googleplay.png' height='50'/></a>
 
 ## Source
 

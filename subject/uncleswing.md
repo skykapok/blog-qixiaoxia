@@ -1,4 +1,4 @@
-# 萌叔走路(Tilt Tilt)
+# 萌叔走路 - Tilt Tilt
 
 这是一款非常困难的平衡类游戏，让萌叔走的更远吧！
 
@@ -14,4 +14,4 @@ Tap screen to start. Slide left/right to keep balance. Look out the bananas.
 
 ## Download:
 
-<a href='https://itunes.apple.com/us/app/tilt-tilt/id905860357' target="_blank"><img src='r/AppStoreBadge.svg' height='45'/></a> <a href='https://play.google.com/store/apps/details?id=com.poags.tiltt' target="_blank"><img src='r/GooglePlayBadge.png' height='45'/></a>
+<a href='https://itunes.apple.com/us/app/tilt-tilt/id905860357' target="_blank"><img src='r/badge_appstore.svg' height='50'/></a> <a href='https://play.google.com/store/apps/details?id=com.poags.tiltt' target="_blank"><img src='r/badge_googleplay.png' height='50'/></a>
