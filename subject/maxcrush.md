@@ -6,6 +6,20 @@
 
 ![](r/maxcrush1.png) ![](r/maxcrush2.png) ![](r/maxcrush3.png)
 
+## DOWNLOADS
+
+### iOS
+
+注意：如果你是在iOS版微信中打开的这个网页，需要点击右上角的按钮选择"在Safari中打开"，才可以使用下面的下载链接。
+
+<a href='https://itunes.apple.com/us/app/max-crush/id1018641834' target="_blank"><img src='r/badge_appstore.svg' height='50'/></a>
+
+### Android
+
+<a href='https://play.google.com/store/apps/details?id=com.poags.mc' target="_blank"><img src='r/badge_googleplay.png' height='50'/></a> <a href='http://www.amazon.com/Max-Crush-Gravity-Brick-Breaking/dp/B01AXY3GNA/' target="_blank"><img src='r/badge_amazon.png' height='50'/></a>
+
+中国大陆各大应用商店即将上线！
+
 ## FEATURES
 
 * 发射小球的方向可以控制，小球会朝着手指点击的位置发射
@@ -25,20 +39,6 @@
 * Well-designed levels
 * Endless mode
 * GameCenter/GooglePlayGame support
-
-## DOWNLOADS
-
-### iOS
-
-注意：如果你是在iOS版微信中打开的这个网页，需要点击右上角的按钮选择"在Safari中打开"，才可以使用下面的下载链接。
-
-<a href='https://itunes.apple.com/us/app/max-crush/id1018641834' target="_blank"><img src='r/badge_appstore.svg' height='50'/></a>
-
-### Android
-
-<a href='https://play.google.com/store/apps/details?id=com.poags.mc' target="_blank"><img src='r/badge_googleplay.png' height='50'/></a> <a href='http://www.amazon.com/Max-Crush-Gravity-Brick-Breaking/dp/B01AXY3GNA/' target="_blank"><img src='r/badge_amazon.png' height='50'/></a>
-
-中国大陆各大应用商店即将上线！
 
 ## THANKS
 
