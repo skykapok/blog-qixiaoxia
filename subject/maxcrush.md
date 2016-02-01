@@ -8,6 +8,8 @@
 
 ![](r/maxcrush1.png) ![](r/maxcrush2.png) ![](r/maxcrush3.png)
 
+Watch video: [YouTube](https://youtu.be/7Sz-07TOAqQ)<br/>观看游戏视频：[优酷](http://v.youku.com/v_show/id_XMTQ1MTExMTI0MA==.html)
+
 ## DOWNLOADS
 
 ### iOS
