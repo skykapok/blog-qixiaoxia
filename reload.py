@@ -86,6 +86,11 @@ def main():
 	for fn in os.listdir('subject/r'):
 		shutil.copy('subject/r/' + fn, 'site/subject/r/' + fn)
 
+	if not os.path.exists('site/blog/r'):
+		os.mkdir('site/blog/r')
+	for fn in os.listdir('post/r'):
+		shutil.copy('post/r/' + fn, 'site/blog/r/' + fn)
+
 	for fn in os.listdir('subject'):
 		p = os.path.join('subject', fn)
 		if os.path.isdir(p):
