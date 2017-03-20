@@ -10,9 +10,9 @@
 
 # 问题来了
 
-既然法线贴图可以用RG通道表示法线在Tangent、Binormal方向的偏移，那把B通道设为1，也可以表示最大45度角的法线扰动，一般都够用了，这是不是能**省出来B通道表示其他信息**呢，比如可以表示PBR光照中的Metallic值，从而减少一张Metallic贴图的使用。
+既然法线一定是单位向量，那已知两个通道的数据，是可以计算出第三个通道的数据的，这样可以用**省出来的一个通道表示其他信息**，比如可以表示PBR光照中的Metallic值，从而减少一张Metallic贴图的使用。事实上，许多inhouse的引擎和商业游戏都是这么做的。
 
-下图显示了一张法线贴图及其单独的R、G、B通道，B通道标出了物件的金属部分，整图偏黄色。
+通常使用RG通道表示法线在Tangent和Binormal方向的偏移，B通道用来存储其他信息。下图显示了一张法线贴图及其单独的R、G、B通道，B通道标出了物件的金属部分，整图偏黄色。
 
 ![](r/normalmap_yellow.jpg)
 
@@ -40,7 +40,8 @@ void surf(Input IN, inout SurfaceOutputStandard o) {
 	fixed4 c = tex2D(_MainTex, IN.uv_MainTex);
 	fixed4 n = tex2D(_BumpMap, IN.uv_BumpMap);
 	o.Albedo = c.rgb;
-	o.Normal = normalize(fixed3(n.xy * 2.0 - 1.0, 1.0));
+	o.Normal.xy = n.xy * 2 - 1;  // unpack rg channel
+	o.Normal.z = sqrt(1 - dot(o.Normal.xy, o.Normal.xy));  // calculate b channel
 	o.Metallic = n.z;
 	o.Smoothness = _Glossiness;
 	o.Alpha = c.a;
