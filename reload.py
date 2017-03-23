@@ -44,7 +44,7 @@ class BlogSubject(object):
 		self.title = get_metainfo(md)
 		self.content = md_to_html(md)
 
-		self._path = os.path.join('subject', os.path.basename(path).replace('.md', '.html'))
+		self._path = 'subject/' + os.path.basename(path).replace('.md', '.html')
 
 	def write_html(self, base_path):
 		template = open('template/page.html', 'r').read()
@@ -63,7 +63,7 @@ class BlogPost(object):
 		self.content = md_to_html(md)
 		self.date = get_first_commit_date(path)
 
-		self._path = os.path.join('blog', os.path.basename(path).replace('.md', '.html'))
+		self._path = 'blog/' + os.path.basename(path).replace('.md', '.html')
 
 	def write_html(self, base_path):
 		template = open('template/page.html', 'r').read()
