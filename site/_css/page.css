@@ -27,6 +27,13 @@ body {
 	text-align: left;
 }
 
+#disqus_thread {
+	padding: 2em;
+	border-top-style: double;
+	border-top-width: 0.25em;
+	border-color: #bdc3c7;
+}
+
 .ds-thread {
 	padding: 2em;
 	border-top-style: double;

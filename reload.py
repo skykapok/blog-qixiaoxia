@@ -47,7 +47,7 @@ class BlogSubject(object):
 		self._path = os.path.join('subject', os.path.basename(path).replace('.md', '.html'))
 
 	def write_html(self, base_path):
-		template = open('template/subject.html', 'r').read()
+		template = open('template/page.html', 'r').read()
 		html = template.replace('-TITLE-', self.title)
 		html = html.replace('-CONTENT-', self.content)
 		html = html.replace('-ID-', self._path)
@@ -66,7 +66,7 @@ class BlogPost(object):
 		self._path = os.path.join('blog', os.path.basename(path).replace('.md', '.html'))
 
 	def write_html(self, base_path):
-		template = open('template/blog.html', 'r').read()
+		template = open('template/page.html', 'r').read()
 		html = template.replace('-TITLE-', self.title)
 		html = html.replace('-CONTENT-', self.content)
 		html = html.replace('-ID-', self._path)
