@@ -28,21 +28,17 @@
 			</script>
 			<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
 
-<!--
-			<div class="ds-thread" data-thread-key="-ID-" data-title="-TITLE-" data-url="-URL-"></div>
 			<script type="text/javascript">
-				var duoshuoQuery = {short_name:"qixiaoxia"};
-					(function() {
-						var ds = document.createElement('script');
-						ds.type = 'text/javascript';ds.async = true;
-						ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-						ds.charset = 'UTF-8';
-						(document.getElementsByTagName('head')[0]
-						 || document.getElementsByTagName('body')[0]).appendChild(ds);
-					})();
+				function f() {
+					var yt = document.getElementById("yun-tie-sdk-wrap");
+					if (yt) {
+						yt.style.backgroundColor = "transparent";
+					} else {
+						setTimeout(f, 100);
+					}
+				}
+				f();
 			</script>
--->
-
 		</div>
 
 		<div class="copyright">
