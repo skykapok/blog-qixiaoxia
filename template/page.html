@@ -17,28 +17,19 @@
 		<div class="content">
 			<article class="markdown-body">-CONTENT-</article>
 
-			<div id="disqus_thread"></div>
+			<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
 			<script>
-				/**
-				*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-				*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-				var disqus_config = function () {
-					this.page.url = "-URL-";  // Replace PAGE_URL with your page's canonical URL variable
-					this.page.identifier = "-ID-"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				var cloudTieConfig = {
+					url: "-URL-",
+					sourceId: "-ID-",
+					productKey: "5c234ba9942b4b5aaab5ff1dd45c2b28",
+					target: "cloud-tie-wrapper"
 				};
-				(function() { // DON'T EDIT BELOW THIS LINE
-					var d = document, s = d.createElement('script');
-					s.src = 'https://qixiaoxia.disqus.com/embed.js';
-					s.setAttribute('data-timestamp', +new Date());
-					(d.head || d.body).appendChild(s);
-				})();
 			</script>
-			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
 
-<!-- 多说评论框 start -->
+<!--
 			<div class="ds-thread" data-thread-key="-ID-" data-title="-TITLE-" data-url="-URL-"></div>
-<!-- 多说评论框 end -->
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 			<script type="text/javascript">
 				var duoshuoQuery = {short_name:"qixiaoxia"};
 					(function() {
@@ -50,7 +41,8 @@
 						 || document.getElementsByTagName('body')[0]).appendChild(ds);
 					})();
 			</script>
-<!-- 多说公共JS代码 end -->
+-->
+
 		</div>
 
 		<div class="copyright">

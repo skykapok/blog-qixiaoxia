@@ -27,7 +27,7 @@ body {
 	text-align: left;
 }
 
-#disqus_thread {
+.cloud-tie-wrapper {
 	padding: 2em;
 	border-top-style: double;
 	border-top-width: 0.25em;
